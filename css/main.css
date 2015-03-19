@@ -10,60 +10,95 @@ body {
 header {
     background-color: #cc0000;
     margin: 0;
-    padding: 1em;
-    
+    padding: 2.5em;
 }
 
 h1 {
     font-size: 2em;
-    text-align: center;
-    position: relative;
+    position: absolute;
     color: white;
+    left: 49%;
+    top: 10px;
     margin: 0;
+    
 }
 
 .h2 {
     font-size: .75em;
     color: white;
-    margin: 0
+    position: absolute;
+    left: 47%
+    
+}
+
+.medallion {
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    margin: 0;
+    top: 10px
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+}
+
+ol {
+    margin: 0;
+}
+
+nav {
+    margin:0;
+    background-color: #4e4e4e;
+    text-align: center;
+    color: white;
 }
 
 .floatleft {
     float: left;
     max-width: 30%;
     margin: 0;
-    padding: 1em 2em;
+    padding: .5em 1em 0 10%;
 }
 
 .floatright {
     max-width: 30%;
     float: right;
     margin: 0;
-    padding: 1em 2em; 
+    padding: .5em 10% 0 1em; 
     position: 
 }
 
 .banner {
-    max-width: 100%;
     margin: 0;
-    padding: 0;
-    position: absolute
+    max-width: 100%;
 }
 
-i {
+h3 {
     color: white;
     font-size: 1.5em;
-    text-align: center;
-    float: inherit;
-    position: relative;
+    left: 43%;
+    top: 60%;
     margin: 0;
-    padding: 45% 40%;
+    position: absolute;
+    
 }
 
 .dragon {
     margin: 0;
     padding: 0;
     background-color: #E6B800;
-    float: right
 }
+
+h4 {
+    text-align: center;
+}
+
+
+
+
 
