@@ -4,7 +4,7 @@ html {
 }
 
 *,*::before, *::after {
-    box-sizing: inherit   
+    box-sizing: inherit;  
 }
 
 body {
@@ -103,7 +103,7 @@ h4 {
     font-size: 1.5em;
     font-weight: bolder;
     margin: 0;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 .h4white {
@@ -111,69 +111,72 @@ h4 {
     font-size: 1.5em;
     font-weight: bolder;
     margin: 0;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     color: white;
 }
 
 .floatleft {
     float: left;
-    max-width: 25%;
-    position: absolute;
-    margin: 0;
-    
-    
+    max-width: 30%;
+    margin: 0 0 1em 10%;
+    padding: 0;
 }
 
 .floatright {
-    max-width: 25%;
+    max-width: 30%;
     float: right;
-    margin: 0;
+    margin: 0 10% 1em 0;
     padding: 0;
     overflow: hidden;
-    position: relative
 }
 
 p {
-    margin: 1em   
+    margin: 0;
 }
 
 div p {
     font-size: .75em;
-    margin: 1em;
+    margin: 2em;
     text-align: center;
-    padding: .75em;
+    padding: 0;
+    clear: both
 }
 
 .pwhite {
     font-size: .75em;
-    margin: 0;
+    margin: 2em;
     text-align: center;
-    padding: 0.5em;
+    padding: 0;
     color: white;
+    clear: both;
 }
 
 .raaa {
     margin: 0;
     padding: 1em;
     background-color: #E6B800;
+    overflow: hidden;
 }
 
 .baah {
     background-color: #2e2e2e;
     margin: 0;
     padding: 1.5em;
+    overflow: hidden;
 }
 
 .nugget {
     background-color: #e60000;
     margin: 0;
     padding: 1em;
+    overflow: hidden;
 }
 
 .moo {
     background-color: #e6b800;
     margin: 0;
     padding: 1em;
+    overflow: hidden;
 }
 
 .footer {
