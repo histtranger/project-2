@@ -1,5 +1,10 @@
 html {
     font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit   
 }
 
 body {
@@ -8,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #cc0000;
+    background-color: #e60000;
     margin: 0;
     padding: 2.5em;
 }
@@ -40,27 +45,33 @@ h1 {
     top: 10px
 }
 
-li {
+nav li {
     list-style: none;
-    text-align: left;
-    display: inline-block;
     margin: 0;
-    padding: 1em;
+    padding: .5em;
+    border: 1px solid black;
+    width: 50%;
+    float: left
 }
 
-li a {
+ol a {
     color: white;
     text-decoration: none;
+    margin: auto;
+    width: 50%;
 }
 
 ol {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden
 }
 
 nav {
     margin:0;
     background-color: #2e2e2e;
-    text-align: center;
+    width: 100%;
 }
 
 .banner {
@@ -68,13 +79,22 @@ nav {
     max-width: 100%;
 }
 
-h3 {
+.banner2 {
+    margin: 0;
     color: white;
     font-size: 1.5em;
-    left: 40%;
-    top: 45%;
+    margin: 0;
+    position: relative;
+}
+
+h3 {
     margin: 0;
     position: absolute;
+    color: white;
+    font-size: 1.5em;
+    left: 30%;
+    bottom: 10%;
+    margin: 0;
     text-shadow: -1px 1px 5px black;
 }
 
@@ -83,7 +103,7 @@ h4 {
     font-size: 1.5em;
     font-weight: bolder;
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 
 .h4white {
@@ -91,22 +111,26 @@ h4 {
     font-size: 1.5em;
     font-weight: bolder;
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     color: white;
 }
 
 .floatleft {
     float: left;
-    max-width: 20%;
+    max-width: 25%;
+    position: absolute;
     margin: 0;
-    padding: 1em 10% 1em 20%;
+    
+    
 }
 
 .floatright {
-    max-width: 20%;
+    max-width: 25%;
     float: right;
     margin: 0;
-    padding: 1em 10% 1em 20%; 
+    padding: 0;
+    overflow: hidden;
+    position: relative
 }
 
 p {
@@ -124,7 +148,7 @@ div p {
     font-size: .75em;
     margin: 0;
     text-align: center;
-    padding: 0;
+    padding: 0.5em;
     color: white;
 }
 
@@ -141,7 +165,7 @@ div p {
 }
 
 .nugget {
-    background-color: #cc0000;
+    background-color: #e60000;
     margin: 0;
     padding: 1em;
 }
