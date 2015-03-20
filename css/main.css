@@ -20,14 +20,15 @@ h1 {
     left: 49%;
     top: 10px;
     margin: 0;
-    
+    text-shadow: -1px 1px 5px black;
 }
 
 .h2 {
     font-size: .75em;
     color: white;
     position: absolute;
-    left: 47%
+    left: 47%;
+    text-shadow: -1px 1px 5px black;
     
 }
 
@@ -47,30 +48,19 @@ li {
     padding: 1em;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+}
+
 ol {
     margin: 0;
 }
 
 nav {
     margin:0;
-    background-color: #4e4e4e;
+    background-color: #2e2e2e;
     text-align: center;
-    color: white;
-}
-
-.floatleft {
-    float: left;
-    max-width: 30%;
-    margin: 0;
-    padding: .5em 1em 0 10%;
-}
-
-.floatright {
-    max-width: 30%;
-    float: right;
-    margin: 0;
-    padding: .5em 10% 0 1em; 
-    position: 
 }
 
 .banner {
@@ -81,24 +71,96 @@ nav {
 h3 {
     color: white;
     font-size: 1.5em;
-    left: 43%;
-    top: 60%;
+    left: 40%;
+    top: 45%;
     margin: 0;
     position: absolute;
-    
-}
-
-.dragon {
-    margin: 0;
-    padding: 0;
-    background-color: #E6B800;
+    text-shadow: -1px 1px 5px black;
 }
 
 h4 {
     text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 1em;
 }
 
+.h4white {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 1em;
+    color: white;
+}
 
+.floatleft {
+    float: left;
+    max-width: 20%;
+    margin: 0;
+    padding: 1em 10% 1em 20%;
+}
 
+.floatright {
+    max-width: 20%;
+    float: right;
+    margin: 0;
+    padding: 1em 10% 1em 20%; 
+}
 
+p {
+    margin: 1em   
+}
+
+div p {
+    font-size: .75em;
+    margin: 1em;
+    text-align: center;
+    padding: .75em;
+}
+
+.pwhite {
+    font-size: .75em;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    color: white;
+}
+
+.raaa {
+    margin: 0;
+    padding: 1em;
+    background-color: #E6B800;
+}
+
+.baah {
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 1.5em;
+}
+
+.nugget {
+    background-color: #cc0000;
+    margin: 0;
+    padding: 1em;
+}
+
+.moo {
+    background-color: #e6b800;
+    margin: 0;
+    padding: 1em;
+}
+
+.footer {
+    font-size: .75em;
+    padding: 2em;
+    background-color: #2e2e2e;
+    text-align: center;
+    padding: 3em;
+}
+
+footer a {
+    color: white;
+}
 
